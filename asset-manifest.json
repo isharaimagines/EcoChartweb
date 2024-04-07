@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EcoChartweb/static/css/main.2edfbd11.css",
+    "main.js": "/EcoChartweb/static/js/main.b9cf8470.js",
+    "static/js/453.59b9430e.chunk.js": "/EcoChartweb/static/js/453.59b9430e.chunk.js",
+    "index.html": "/EcoChartweb/index.html",
+    "main.2edfbd11.css.map": "/EcoChartweb/static/css/main.2edfbd11.css.map",
+    "main.b9cf8470.js.map": "/EcoChartweb/static/js/main.b9cf8470.js.map",
+    "453.59b9430e.chunk.js.map": "/EcoChartweb/static/js/453.59b9430e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2edfbd11.css",
+    "static/js/main.b9cf8470.js"
+  ]
+}
