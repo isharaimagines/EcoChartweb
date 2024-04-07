@@ -1,0 +1,76 @@
+.title {
+  position: relative;
+}
+.plantsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px; /* Adjust the gap between cards */
+}
+
+.plantCard {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+  transition: transform 0.3s ease;
+  overflow: hidden; /* Add this to handle content that might expand beyond the card */
+}
+.plantCard .cardRow {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: auto;
+  margin: 10px;
+}
+.plantCard .cardRow:nth-child(2) {
+  margin: 15px !important;
+}
+.plantCard .cardRow p {
+  padding: 10px;
+  width: auto;
+  height: 80%;
+  text-align: left;
+  background: #f7f6f6;
+  margin: 4px;
+  border-radius: 12px;
+}
+.plantCard .cardRow p .analysis {
+  color: #4285f4;
+  font-weight: 600;
+}
+.plantCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333; /* Darker color for better contrast */
+}
+
+.attribute {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #666666;
+  font-weight: 500;
+}
+
+.attribute:first-child {
+  margin-top: 0;
+}
+
+.attribute:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) and (min-width: 577px),
+  (max-width: 992px) and (min-width: 769px),
+  (max-width: 576px) {
+  .plantCard .cardRow {
+    flex-direction: column;
+  }
+}
